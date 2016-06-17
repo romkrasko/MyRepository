@@ -1,0 +1,59 @@
+﻿@model ParkingSystem.Models.Subscription
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Subscription</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Car.Number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Car.Number)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Parking.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Parking.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpirtionDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpirtionDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PlaceNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PlaceNumber)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
