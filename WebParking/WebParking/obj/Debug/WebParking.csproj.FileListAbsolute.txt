@@ -30,3 +30,35 @@ c:\users\morgan\documents\visual studio 2013\Projects\WebParking\WebParking\obj\
 c:\users\morgan\documents\visual studio 2013\Projects\WebParking\WebParking\obj\Debug\WebParking.pdb
 c:\users\morgan\documents\visual studio 2013\Projects\WebParking\WebParking\obj\Debug\WebParking.Migrations.ParkingDB.resources
 c:\users\morgan\documents\visual studio 2013\Projects\WebParking\WebParking\obj\Debug\WebParking.csproj.GenerateResource.Cache
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\WebParking.dll.config
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\WebParking.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\WebParking.pdb
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\Antlr3.Runtime.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\EntityFramework.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\EntityFramework.SqlServer.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\Newtonsoft.Json.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\System.Web.Helpers.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\System.Web.Mvc.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\System.Web.Optimization.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\System.Web.Razor.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\System.Web.WebPages.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\System.Web.WebPages.Razor.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\WebGrease.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\EntityFramework.xml
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\EntityFramework.SqlServer.xml
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\System.Web.Helpers.xml
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\System.Web.Mvc.xml
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\System.Web.Optimization.xml
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\System.Web.Razor.xml
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\System.Web.WebPages.xml
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\System.Web.WebPages.Razor.xml
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\Newtonsoft.Json.xml
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\bin\Antlr3.Runtime.pdb
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\obj\Debug\WebParking.csprojResolveAssemblyReference.cache
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\obj\Debug\WebParking.Migrations.ParkingDB.resources
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\obj\Debug\WebParking.csproj.GenerateResource.Cache
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\obj\Debug\WebParking.dll
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\obj\Debug\WebParking.pdb

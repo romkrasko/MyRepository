@@ -15,9 +15,34 @@ namespace WebParking.Controllers
         private AppContext db = new AppContext();
 
         // GET: /Cars/
-        public ActionResult Index()
+        public ActionResult Index(string sortOrder)
         {
-            var cars = db.Cars.Include(c => c.Employee);
+            //12
+            ViewBag.NumberSortParm = String.IsNullOrEmpty(sortOrder) ? "Number" : "";
+            ViewBag.MarkSortParm = String.IsNullOrEmpty(sortOrder) ? "Mark" : "";
+            var cars = from carOrd in db.Cars
+                       select carOrd;
+
+            cars = db.Cars.Include(c => c.Employee);
+            switch (sortOrder)
+            {
+                case "Number desc":
+                    cars = cars.OrderByDescending(carOrd => carOrd.Number);
+                    break;
+                case "Number":
+                    cars = cars.OrderBy(carOrd => carOrd.Number);
+                    break;
+                case "Mark":
+                    cars = cars.OrderBy(carOrd => carOrd.Mark);
+                    break;
+                case "Mark desc":
+                    cars = cars.OrderByDescending(carOrd => carOrd.Mark);
+                    break;
+                default:
+                    cars = cars.OrderBy(carOrd => carOrd.Id);
+                    break;
+            }
+            //12
             return View(cars.ToList());
         }
 
@@ -48,7 +73,7 @@ namespace WebParking.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include="Id,Number,Mark,Model,EmployeeId")] Car car)
+        public ActionResult Create([Bind(Include = "Id,Number,Mark,Model,EmployeeId")] Car car)
         {
             if (ModelState.IsValid)
             {
@@ -82,7 +107,7 @@ namespace WebParking.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include="Id,Number,Mark,Model,EmployeeId")] Car car)
+        public ActionResult Edit([Bind(Include = "Id,Number,Mark,Model,EmployeeId")] Car car)
         {
             if (ModelState.IsValid)
             {
