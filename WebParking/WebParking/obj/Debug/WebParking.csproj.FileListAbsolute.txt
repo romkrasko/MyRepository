@@ -62,3 +62,4 @@ C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\obj\Debug\WebPar
 C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\obj\Debug\WebParking.csproj.GenerateResource.Cache
 C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\obj\Debug\WebParking.dll
 C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\obj\Debug\WebParking.pdb
+C:\Users\Morgan\Source\Repos\MyRepository\WebParking\WebParking\obj\Debug\WebParking.Migrations.ParkingDB1.resources

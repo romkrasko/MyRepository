@@ -81,7 +81,6 @@ namespace WebParking.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-
             ViewBag.EmployeeId = new SelectList(db.Employees, "Id", "Name", car.EmployeeId);
             return View(car);
         }

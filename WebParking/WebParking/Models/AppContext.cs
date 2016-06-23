@@ -8,7 +8,7 @@ namespace ParkingSystem.Models
 {
     public class AppContext : DbContext
     {
-        // public AppContext() : base("DefaultConnection") { }
+        //public AppContext() : base("DefaultConnection") { }
 
         public DbSet<Car> Cars { get; set; }
         public DbSet<Employee> Employees { get; set; }

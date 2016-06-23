@@ -127,6 +127,10 @@
     <Compile Include="Migrations\201606171134422_ParkingDB.Designer.cs">
       <DependentUpon>201606171134422_ParkingDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606231021149_ParkingDB1.cs" />
+    <Compile Include="Migrations\201606231021149_ParkingDB1.Designer.cs">
+      <DependentUpon>201606231021149_ParkingDB1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AppContext.cs" />
     <Compile Include="Models\Car.cs" />
@@ -151,11 +155,18 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -191,6 +202,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201606171134422_ParkingDB.resx">
       <DependentUpon>201606171134422_ParkingDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606231021149_ParkingDB1.resx">
+      <DependentUpon>201606231021149_ParkingDB1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

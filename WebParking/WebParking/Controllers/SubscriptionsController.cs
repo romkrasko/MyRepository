@@ -51,13 +51,13 @@ namespace WebParking.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include="Id,ExpirtionDate,Cost,PlaceNumber,ParkingId,CarId")] Subscription subscription)
         {
+            //if string.IsNullOrEmpty(subscription.)
             if (ModelState.IsValid)
             {
                 db.Subscriptions.Add(subscription);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-
             ViewBag.CarId = new SelectList(db.Cars, "Id", "Number", subscription.CarId);
             ViewBag.ParkingId = new SelectList(db.Parkings, "Id", "Name", subscription.ParkingId);
             return View(subscription);

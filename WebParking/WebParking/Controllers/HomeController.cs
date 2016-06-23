@@ -54,7 +54,6 @@ namespace WebParking.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-
             return View(parking);
         }
 
